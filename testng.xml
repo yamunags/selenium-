@@ -1,0 +1,9 @@
+<suite name="Parallel test suite" parallel="tests">
+<test name="Firefox Test">
+<parameter name="browser" value="Firefox"/>
+<classes>
+<class name="com.selenium.exmaples.DrillDay"/>
+</classes>
+</test>
+
+</suite>

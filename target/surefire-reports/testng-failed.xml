@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Parallel test suite]" parallel="tests">
+  <test thread-count="5" verbose="0" name="Firefox Test(failed)" parallel="tests">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="com.selenium.exmaples.DrillDay">
+        <methods>
+          <include name="yamuna"/>
+        </methods>
+      </class> <!-- com.selenium.exmaples.DrillDay -->
+    </classes>
+  </test> <!-- Firefox Test(failed) -->
+</suite> <!-- Failed suite [Parallel test suite] -->
